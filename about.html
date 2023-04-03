@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+    <style>
+   table {
+         border-collapse: collapse;
+         width: 100%;
+         border: 1px solid black;
+      }
+      th, td {
+         padding: 8px;
+         text-align: left;
+         border: 1px solid black;
+      }
+      th {
+         background-color: #f2f2f2;
+      }
+      input[type="text"] {
+         width: 100%;
+         padding: 6px 10px;
+         margin: 4px 0;
+         box-sizing: border-box;
+      }
+   </style>
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Home</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="profile">
+         <img src="Images/webtech.png" class="image" alt="#" width="500" height="500">
+         <h3 class="name">Dr. Charles Roland Haruna</h3>
+         <p class="role">Lecturer</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="Images/webtech.png" onmouseover="this.src'image file'" onmouseout="this.src'photo file'"class="image" alt="">
+      <h3 class="name">Dr. Charles Roland Haruna</h3>
+      <p class="role">Lecturer</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="contact.html"><i class="fas fa-phone"></i><span>Contact</span></a>
+   </nav>
+
+</div>
+
+
+
+
+</section>
+
+
+
+<section class="about">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="Images/webtech.png" onmouseover="this.src='Images/haruna.jfif'" onmouseout="this.src='Images/webtech.png'" alt="Image description">
+
+      </div>
+      <div>
+         <h2 align="center">PROJECTS</h2>
+   <table>
+      <tr>
+         <th>TITLE</th>
+         <th>POSITION</th>
+         <th>DURATION</th>
+      </tr>
+      <tr>
+         <td>digiCAP</td>
+         <td>Lead Facilitator</td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>Research on key technologies distrubuted storage consistency maintenance in cloud computing environment</td>
+         <td>Member</td>
+         <td></td>
+      </tr>
+   </table>
+    <br />
+    <h2 align="center">PROFESSIONAL POSITIONS</h2>
+    <table>
+      <tr>
+         <th>PROFESSIONAL BODY</th>
+         <th>POSITION</th>
+         <th>YEAR</th>
+      </tr>
+      <tr>
+         <td>Ghana Service Association</td>
+         <td>Member</td>
+         <td>2021</td>
+      </tr>
+   </table>
+</div>
+
+
+
+
+
+
+      <div class="content">
+         <h3>About</h3>
+         <p>Charles obtained his Doctor of Engineering in Computer Science and Technology at the University of Electronic Science and Technology of China in June 2020. He was appointed a Lecturer at the Department of Computer Science and Information Technology in 2021, where he teaches undergraduate and postgraduate courses at the University of Cape Coast. <br><br>
+
+In 2022, Charles established the Big Data Research Lab where research into Big Data Technological Infrastructure, Repository and Applications are conducted. He has published scientific articles in international journals and at international conferences. Charles is a peer reviewer for the IEEE access journal and a PC member for Frontiers in Cyber Security Conferences. <br><br>
+
+He is very conversant and abreast in the following technological tools and skills; SQL server/database management, MATLAB programming, Microsoft Power Platform, disaster recovery, system integration, system deployment. <br><br>
+
+Charles enjoys reading, playing and watching football, sightseeing and cooking. He speaks, reads and writes in English, his local language Fante and moderate Mandarin (Chinese).<br><br>
+</p>
+         <a href="courses.html" class="inline-btn">our courses</a>
+      </div>
+
+   </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; copyright @ 2022 by <span>Dr. Charles Roland Haruna</span> | all rights reserved!
+
+</footer>
+
+</body>
+</html>
